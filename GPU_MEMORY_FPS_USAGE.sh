@@ -22,4 +22,4 @@ echo "\n-----------------------------MEMORY------------------------------\n"
 adb shell dumpsys meminfo com.PGTeam.XRWorld
 
 echo "\n-----------------------------FPS---------------------------------\n"
-adb logcat -d | grep -i "FPS:" | tail -10
+adb logcat -d | grep -i "FPS:" | tail -60
